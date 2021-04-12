@@ -1,0 +1,7 @@
+${PODS_ROOT}/Target Support Files/Pods-UdeskUniMPSDKManagerDemo/Pods-UdeskUniMPSDKManagerDemo-resources.sh
+${PODS_ROOT}/../../../Udesk-UniMPSDK/UdeskUniMPSDKDemo/UniMPSDK/Core/Resources/uni-jsframework.js
+${PODS_ROOT}/../../../Udesk-UniMPSDK/UdeskUniMPSDKDemo/UniMPSDK/Core/Resources/unincomponents.ttf
+${PODS_ROOT}/../../../Udesk-UniMPSDK/UdeskUniMPSDKDemo/UniMPSDK/Core/Resources/weex-polyfill.js
+${PODS_ROOT}/../../../Udesk-UniMPSDK/UdeskUniMPSDKDemo/UniMPSDK/Core/Resources/weexUniJs.js
+${PODS_ROOT}/../../../Udesk-UniMPSDK/UdeskUniMPSDKDemo/UniMPSDK/Core/Resources/__uniappes6.js
+${PODS_ROOT}/../../../Udesk-UniMPSDK/UdeskUniMPSDKDemo/UniMPSDK/Core/Resources/PandoraApi.bundle

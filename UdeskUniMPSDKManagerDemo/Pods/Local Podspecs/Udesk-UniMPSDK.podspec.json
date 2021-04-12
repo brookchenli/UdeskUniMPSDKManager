@@ -1,0 +1,66 @@
+{
+  "name": "Udesk-UniMPSDK",
+  "version": "3.1.14",
+  "summary": "This is uniMPsdk for CocoaPod",
+  "description": "uniMpSDK pod版本，可为App提供小程序能力，或用于组件化，或提供跨平台方案",
+  "homepage": "https://github.com/brookchenli/Udesk-UniMPSDK",
+  "license": "MIT",
+  "authors": {
+    "chenli": "chenli_better@163.com"
+  },
+  "source": {
+    "git": "https://github.com/brookchenli/Udesk-UniMPSDK.git",
+    "tag": "3.1.14"
+  },
+  "source_files": [
+    "UdeskUniMPSDKDemo/UniMPSDK/Core/Headers/*.h",
+    "UdeskUniMPSDKDemo/UniMPSDK/Core/Headers/weexHeader/*.h"
+  ],
+  "exclude_files": "Classes/Exclude",
+  "resources": "UdeskUniMPSDKDemo/UniMPSDK/Core/Resources/*",
+  "frameworks": [
+    "JavaScriptCore",
+    "AVFoundation",
+    "OpenGLES",
+    "CoreGraphics",
+    "CoreTelephony",
+    "AddressBook",
+    "CoreMedia",
+    "AVKit",
+    "CoreText",
+    "AssetsLibrary",
+    "MediaPlayer",
+    "GLKit",
+    "QuartzCore",
+    "QuickLook",
+    "CoreLocation",
+    "storage"
+  ],
+  "libraries": [
+    "iconv",
+    "c++",
+    "Storage",
+    "Weex",
+    "UI",
+    "PDRCore",
+    "Navigator",
+    "NativeObj",
+    "coreSupport",
+    "NativeUI",
+    "PGInvocation",
+    "IO",
+    "SDWebImage"
+  ],
+  "vendored_libraries": "UdeskUniMPSDKDemo/UniMPSDK/Core/Libs/*.a",
+  "vendored_frameworks": "UdeskUniMPSDKDemo/UniMPSDK/Core/Libs/*.framework",
+  "xcconfig": {
+    "OTHER_LDFLAGS": "-ObjC",
+    "HEADER_SEARCH_PATHS": "$(SDKROOT)/usr/include/libxml2"
+  },
+  "platforms": {
+    "osx": null,
+    "ios": null,
+    "tvos": null,
+    "watchos": null
+  }
+}

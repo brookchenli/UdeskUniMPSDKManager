@@ -1,0 +1,12 @@
+platform :ios, '9.0'
+use_frameworks!
+
+def all_pods
+  pod 'Udesk-UniMPSDK', :path => '../../Udesk-UniMPSDK'
+end
+
+target 'UdeskUniMPSDKManagerDemo' do
+    all_pods
+end
+
+

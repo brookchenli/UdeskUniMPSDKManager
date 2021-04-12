@@ -1,0 +1,16 @@
+PODS:
+  - Udesk-UniMPSDK (3.1.14)
+
+DEPENDENCIES:
+  - Udesk-UniMPSDK (from `../../Udesk-UniMPSDK`)
+
+EXTERNAL SOURCES:
+  Udesk-UniMPSDK:
+    :path: "../../Udesk-UniMPSDK"
+
+SPEC CHECKSUMS:
+  Udesk-UniMPSDK: 0270a9cb1281c15030bffb581e802d3999c00b72
+
+PODFILE CHECKSUM: 03abba71955a8d955401100e5a73fa7b816fcbd8
+
+COCOAPODS: 1.9.1

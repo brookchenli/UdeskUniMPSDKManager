@@ -1,0 +1,735 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		6ED29E5151758695DC7892440D7E3151 /* Udesk-UniMPSDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A3952504984646DBE0DFFD63B57A9E17 /* Build configuration list for PBXAggregateTarget "Udesk-UniMPSDK" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = "Udesk-UniMPSDK";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		057BBBA3EB43333D4941E9292C1F41BB /* Pods-UdeskUniMPSDKManagerDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 768CE3D6A5E9B2EEA15144ED2F661847 /* Pods-UdeskUniMPSDKManagerDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0BF64F020BAC4B8DC0C0F937F3937C72 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		56D01B0BE8740D7E1F09CA4F1C3179C2 /* Pods-UdeskUniMPSDKManagerDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C90BB77DFAA8124597C089D2D5065B23 /* Pods-UdeskUniMPSDKManagerDemo-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03D650094E74741381BDB0878D368C5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6ED29E5151758695DC7892440D7E3151;
+			remoteInfo = "Udesk-UniMPSDK";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02DAFD9498C0BAF5982369E6ED8BF7D3 /* WXConvert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXConvert.h; sourceTree = "<group>"; };
+		041ABA7D244F171D565787A9067FDD17 /* JSContext+Weex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSContext+Weex.h"; sourceTree = "<group>"; };
+		07D3A5409B620DF4DEE3C091BBC5DBF2 /* WXURLRewriteProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXURLRewriteProtocol.h; sourceTree = "<group>"; };
+		0DFC66CF9A6FBF724AFC76BCA2BC7E87 /* WXApmProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXApmProtocol.h; sourceTree = "<group>"; };
+		0E8D1B9C81A3F2D5787E15DA8D73B7A4 /* WXAComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXAComponent.h; sourceTree = "<group>"; };
+		10ED7FC47CA78390326AD9D365327592 /* Pods-UdeskUniMPSDKManagerDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UdeskUniMPSDKManagerDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		1179B20CDA48B279578EBFE359F6ED4F /* WXAppMonitorProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXAppMonitorProtocol.h; sourceTree = "<group>"; };
+		1A2653D56A1EF52E7E2D6EACCEB314FA /* WXType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXType.h; sourceTree = "<group>"; };
+		1A94A63AFB1BB0CD378829E67E33F0E2 /* WXComponentManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXComponentManager.h; sourceTree = "<group>"; };
+		1B8352F640787FE771D4FFD11F5CFAA2 /* WXEventModuleProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXEventModuleProtocol.h; sourceTree = "<group>"; };
+		1DF56EA2DCFCCB5FBD1DC9D88A50AB1F /* Pods-UdeskUniMPSDKManagerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UdeskUniMPSDKManagerDemo.release.xcconfig"; sourceTree = "<group>"; };
+		203C78E9A7B587DDFB49B5548884CB73 /* flex_enum.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = flex_enum.h; sourceTree = "<group>"; };
+		25812F0366788F11B339E9A28C4B4071 /* WXSDKInstance+Bridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WXSDKInstance+Bridge.h"; sourceTree = "<group>"; };
+		28D4840E1AC10A475F55A90D3304F95D /* WXRecyclerComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXRecyclerComponent.h; sourceTree = "<group>"; };
+		28FDD873D86D9A7642B0BB9EF9B2EFA8 /* DCUniMPInstance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DCUniMPInstance.h; path = UdeskUniMPSDKDemo/UniMPSDK/Core/Headers/DCUniMPInstance.h; sourceTree = "<group>"; };
+		2BC8D4FB994CF2D59A2EDB6600EF20D4 /* WXNetworkProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXNetworkProtocol.h; sourceTree = "<group>"; };
+		2C7E9CC6BED299031824F9B91F44130C /* WXComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXComponent.h; sourceTree = "<group>"; };
+		2E7CA0F22E5D07D2BF8322C937A956AB /* libWeex.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeex.a; path = UdeskUniMPSDKDemo/UniMPSDK/Core/Libs/libWeex.a; sourceTree = "<group>"; };
+		302261A7AE9B2C419B65767A6835F6D1 /* style.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = style.h; sourceTree = "<group>"; };
+		310559ADE24406428804B8875AC6E697 /* UniPluginProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UniPluginProtocol.h; sourceTree = "<group>"; };
+		31BD687B29837B6D8FDC547097A5A224 /* DCUniMPError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DCUniMPError.h; path = UdeskUniMPSDKDemo/UniMPSDK/Core/Headers/DCUniMPError.h; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		329D3C1F1C11837604E8781F7265018A /* uni-jsframework.js */ = {isa = PBXFileReference; includeInIndex = 1; name = "uni-jsframework.js"; path = "UdeskUniMPSDKDemo/UniMPSDK/Core/Resources/uni-jsframework.js"; sourceTree = "<group>"; };
+		33D517C007E20CBFBE6387F0AFF22632 /* WXResourceRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXResourceRequest.h; sourceTree = "<group>"; };
+		35838981A059D150ED72CA50AFD24213 /* WXModalUIModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXModalUIModule.h; sourceTree = "<group>"; };
+		36895187D0E11A25892862354DA64B00 /* WXSDKEngine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXSDKEngine.h; sourceTree = "<group>"; };
+		3CE537C7AFC6872B7F1632DB5E26C00C /* WXValidateProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXValidateProtocol.h; sourceTree = "<group>"; };
+		3E643812CB7735DCBB748BB0019B27A5 /* layout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = layout.h; sourceTree = "<group>"; };
+		400596A252B546FAE2BD668387013C65 /* WXDebugTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXDebugTool.h; sourceTree = "<group>"; };
+		46A3D49D28F50B71936C697800368433 /* WXSDKError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXSDKError.h; sourceTree = "<group>"; };
+		471A24718827BB3238BF39F3C47477B7 /* DCUniMP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DCUniMP.h; path = UdeskUniMPSDKDemo/UniMPSDK/Core/Headers/DCUniMP.h; sourceTree = "<group>"; };
+		4A35FA1BA1287534E34F3D1F20A51701 /* WXRootViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXRootViewController.h; sourceTree = "<group>"; };
+		4A62C6D2C432961CF63182A06F5A64B9 /* WXJSExceptionProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXJSExceptionProtocol.h; sourceTree = "<group>"; };
+		4CF0FB19FA5898688989C933B91A7CEA /* WXConfigCenterProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXConfigCenterProtocol.h; sourceTree = "<group>"; };
+		4D24EC2E7E51738A2DEB86CF2339DDC1 /* WXWebSocketHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXWebSocketHandler.h; sourceTree = "<group>"; };
+		4D953DD89EDA8DED85200B51B9454114 /* WXNavigationProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXNavigationProtocol.h; sourceTree = "<group>"; };
+		559048F2FBD8E63B2EAD073A5EA1EFE4 /* libStorage.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libStorage.a; path = UdeskUniMPSDKDemo/UniMPSDK/Core/Libs/libStorage.a; sourceTree = "<group>"; };
+		55E6ED53707C5CF8F2F1FCD67A4DD8CE /* WXJSExceptionInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXJSExceptionInfo.h; sourceTree = "<group>"; };
+		57A84FACE143E50D545C9FD69B1DC4C0 /* WXExtendCallNativeProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXExtendCallNativeProtocol.h; sourceTree = "<group>"; };
+		590A4B057A56D2FEF85CF0BB68CF2F36 /* Pods-UdeskUniMPSDKManagerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UdeskUniMPSDKManagerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		595C5AFFE7751FE94AE6F64980A0E030 /* DCUniMPMenuActionSheetStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DCUniMPMenuActionSheetStyle.h; path = UdeskUniMPSDKDemo/UniMPSDK/Core/Headers/DCUniMPMenuActionSheetStyle.h; sourceTree = "<group>"; };
+		599930FC5499B92B637F408F28C74C00 /* WXTracingManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXTracingManager.h; sourceTree = "<group>"; };
+		5DD9ED829E9E22B48E10D2F2BDC50762 /* __uniappes6.js */ = {isa = PBXFileReference; includeInIndex = 1; name = __uniappes6.js; path = UdeskUniMPSDKDemo/UniMPSDK/Core/Resources/__uniappes6.js; sourceTree = "<group>"; };
+		5E15FB086FBDA3461A18716402A6829F /* libIO.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libIO.a; path = UdeskUniMPSDKDemo/UniMPSDK/Core/Libs/libIO.a; sourceTree = "<group>"; };
+		65E5FBA73CC65CA063639FAF8D724BF4 /* Udesk-UniMPSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "Udesk-UniMPSDK.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6B26D4DA06F5F9FD811F1A3FB1DA1DF2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		6BE40F8D8FA7A89F715EE487FAFDC69C /* WXUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXUtility.h; sourceTree = "<group>"; };
+		6C438E19FADA1EB72ED38B2A7B72C639 /* WXLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXLog.h; sourceTree = "<group>"; };
+		6C43F159EA9BB6A37E93FFF275F289C2 /* WXExceptionUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXExceptionUtils.h; sourceTree = "<group>"; };
+		768CE3D6A5E9B2EEA15144ED2F661847 /* Pods-UdeskUniMPSDKManagerDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UdeskUniMPSDKManagerDemo-umbrella.h"; sourceTree = "<group>"; };
+		76949D8A3A67ED6F2D816A3B86C587F8 /* WXAnalyzerProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXAnalyzerProtocol.h; sourceTree = "<group>"; };
+		79AB426514F115B36D27F3B6AD59F8F8 /* Pods-UdeskUniMPSDKManagerDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UdeskUniMPSDKManagerDemo-Info.plist"; sourceTree = "<group>"; };
+		7CFF7FAF1B4411C63546D9678D4AAA3F /* libSDWebImage.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libSDWebImage.a; path = UdeskUniMPSDKDemo/UniMPSDK/Core/Libs/libSDWebImage.a; sourceTree = "<group>"; };
+		8099D0472CC06D71B78AD51F93CDD8C7 /* WXPageEventNotifyEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXPageEventNotifyEvent.h; sourceTree = "<group>"; };
+		8834982F2CFE7C568FE3EA35330B3B30 /* WeexProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WeexProtocol.h; sourceTree = "<group>"; };
+		8B0146D44C88B0CBB8BB54D4966BFD9D /* WXDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXDefine.h; sourceTree = "<group>"; };
+		8BBB6EC9C9630AA30B4A84287B697546 /* WXSDKManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXSDKManager.h; sourceTree = "<group>"; };
+		8BBDE34F8F285BB1CE04C5C28B53A952 /* storage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = storage.framework; path = UdeskUniMPSDKDemo/UniMPSDK/Core/Libs/storage.framework; sourceTree = "<group>"; };
+		8DE21D5ABDE1445BEB43EF2DF2155BC3 /* DCUniMPSDKEngine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DCUniMPSDKEngine.h; path = UdeskUniMPSDKDemo/UniMPSDK/Core/Headers/DCUniMPSDKEngine.h; sourceTree = "<group>"; };
+		8E819E700BC54DBBA1ED89662F05283F /* WXScrollerComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXScrollerComponent.h; sourceTree = "<group>"; };
+		9124F67AD77EA76F181233E38DFB5BC5 /* WeexSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WeexSDK.h; sourceTree = "<group>"; };
+		914E869BF1F44FB819BF686780279ECE /* libNativeUI.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libNativeUI.a; path = UdeskUniMPSDKDemo/UniMPSDK/Core/Libs/libNativeUI.a; sourceTree = "<group>"; };
+		91E9962734987649DDDED366411688FD /* Pods_UdeskUniMPSDKManagerDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UdeskUniMPSDKManagerDemo.framework; path = "Pods-UdeskUniMPSDKManagerDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DE8359B79E4CB2E561B68A339443693 /* WXBridgeManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXBridgeManager.h; sourceTree = "<group>"; };
+		9F76FA86CD2B0FC49DCA63A68487B10E /* NSObject+WXSwizzle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+WXSwizzle.h"; sourceTree = "<group>"; };
+		A199BB21FDC8BD032C0C142E888E6AD7 /* Udesk-UniMPSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Udesk-UniMPSDK.release.xcconfig"; sourceTree = "<group>"; };
+		A4D73D256E9E97A5C311B073009738C7 /* weexUniJs.js */ = {isa = PBXFileReference; includeInIndex = 1; name = weexUniJs.js; path = UdeskUniMPSDKDemo/UniMPSDK/Core/Resources/weexUniJs.js; sourceTree = "<group>"; };
+		A513BCB75644F4D08875D7BB1C5CE871 /* WXImgLoaderProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXImgLoaderProtocol.h; sourceTree = "<group>"; };
+		A57AC63B77C6B7CCC8083C2CC1E76760 /* PandoraApi.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = PandoraApi.bundle; path = UdeskUniMPSDKDemo/UniMPSDK/Core/Resources/PandoraApi.bundle; sourceTree = "<group>"; };
+		A6E1BD225C8189DD79C2CA412D4C1C88 /* libNavigator.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libNavigator.a; path = UdeskUniMPSDKDemo/UniMPSDK/Core/Libs/libNavigator.a; sourceTree = "<group>"; };
+		AD406C5DDAF56FB89AD20DC10A3B467D /* WXListComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXListComponent.h; sourceTree = "<group>"; };
+		AE3671D82717716CDDE85DFB644935B4 /* Udesk-UniMPSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Udesk-UniMPSDK.debug.xcconfig"; sourceTree = "<group>"; };
+		B0C8C8A41B91A2B41197BC723AEED9BD /* libNativeObj.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libNativeObj.a; path = UdeskUniMPSDKDemo/UniMPSDK/Core/Libs/libNativeObj.a; sourceTree = "<group>"; };
+		B17BD41898DA8E6A47EF671931D6AFC8 /* Pods-UdeskUniMPSDKManagerDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UdeskUniMPSDKManagerDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BA315DE3A1D36F18B1BC983A9ED62A9E /* WXVoiceOverModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXVoiceOverModule.h; sourceTree = "<group>"; };
+		BB9B100FEA225364BC8E144145DE3D5E /* WXSDKInstance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXSDKInstance.h; sourceTree = "<group>"; };
+		BDD500A99DE3FD166E2573AD6FFCF95C /* libUI.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libUI.a; path = UdeskUniMPSDKDemo/UniMPSDK/Core/Libs/libUI.a; sourceTree = "<group>"; };
+		BF2C958A1B549DA0B1541DF2E3972AD6 /* Pods-UdeskUniMPSDKManagerDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UdeskUniMPSDKManagerDemo-resources.sh"; sourceTree = "<group>"; };
+		C064B635E3446BC060E62CA40523D538 /* WXResourceLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXResourceLoader.h; sourceTree = "<group>"; };
+		C0943C966BFFC232833CABCF04BACAD2 /* WXIndicatorComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXIndicatorComponent.h; sourceTree = "<group>"; };
+		C19B5AFF52F42D5542F3BFED92652742 /* WXTracingProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXTracingProtocol.h; sourceTree = "<group>"; };
+		C4A761476719EE2309FBC52A1E030DD6 /* WXResourceResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXResourceResponse.h; sourceTree = "<group>"; };
+		C90BB77DFAA8124597C089D2D5065B23 /* Pods-UdeskUniMPSDKManagerDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UdeskUniMPSDKManagerDemo-dummy.m"; sourceTree = "<group>"; };
+		C9E2548B72150E68FD3C99FFF40BFC6C /* Pods-UdeskUniMPSDKManagerDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UdeskUniMPSDKManagerDemo.modulemap"; sourceTree = "<group>"; };
+		C9F2C43FD0952F0D2807FC4A1B27F9E8 /* WXJSFrameworkLoadProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXJSFrameworkLoadProtocol.h; sourceTree = "<group>"; };
+		D064B851170599C4198878E5D057ACAF /* WXApmForInstance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXApmForInstance.h; sourceTree = "<group>"; };
+		D2A0564B9209A986314E8CBF18B95CB8 /* weex-polyfill.js */ = {isa = PBXFileReference; includeInIndex = 1; name = "weex-polyfill.js"; path = "UdeskUniMPSDKDemo/UniMPSDK/Core/Resources/weex-polyfill.js"; sourceTree = "<group>"; };
+		D397E8E1F39BF5BF14BD1F5EFFF6796F /* WXRootView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXRootView.h; sourceTree = "<group>"; };
+		D49E89A82A2705EB7271ED8EFED9F0FF /* WXErrorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXErrorView.h; sourceTree = "<group>"; };
+		D5A9D7D697DA899418758F59AD5CD1C9 /* WXMonitor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXMonitor.h; sourceTree = "<group>"; };
+		D6EE947C0D18EB9B7E325B81D524ACA0 /* libPDRCore.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libPDRCore.a; path = UdeskUniMPSDKDemo/UniMPSDK/Core/Libs/libPDRCore.a; sourceTree = "<group>"; };
+		D8C1E5626C470A5D9FF7CA1BC5DD1580 /* WXAnalyzerCenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXAnalyzerCenter.h; sourceTree = "<group>"; };
+		DBACBC70D96DF94B2CCA15AF48522299 /* libcoreSupport.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libcoreSupport.a; path = UdeskUniMPSDKDemo/UniMPSDK/Core/Libs/libcoreSupport.a; sourceTree = "<group>"; };
+		DE24F24DBA4104667EB46C56B58B5C92 /* WXResourceRequestHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXResourceRequestHandler.h; sourceTree = "<group>"; };
+		E229AC5DB4A7B3AB4C9318AFCF337232 /* libPGInvocation.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libPGInvocation.a; path = UdeskUniMPSDKDemo/UniMPSDK/Core/Libs/libPGInvocation.a; sourceTree = "<group>"; };
+		E37635E47C3E499C657419A190E6492E /* WXAppConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXAppConfiguration.h; sourceTree = "<group>"; };
+		E488A1117E4AF9A1B6BD82F02E25F965 /* WXPrerenderManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXPrerenderManager.h; sourceTree = "<group>"; };
+		EABC05DF54766F9239B1CBD5CD458648 /* WXBridgeProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXBridgeProtocol.h; sourceTree = "<group>"; };
+		EF1257356A80D51DEB97A0F241ED528C /* WXSDKInstance+DCExtend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WXSDKInstance+DCExtend.h"; sourceTree = "<group>"; };
+		F03FEFE41DEF300D9C5A640837A3A1D6 /* WXView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXView.h; sourceTree = "<group>"; };
+		F104FDD7434D111233364DFDC6DC551A /* DCUniMPConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DCUniMPConfiguration.h; path = UdeskUniMPSDKDemo/UniMPSDK/Core/Headers/DCUniMPConfiguration.h; sourceTree = "<group>"; };
+		F4C078903BDECE3789003E620DC11255 /* unincomponents.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = unincomponents.ttf; path = UdeskUniMPSDKDemo/UniMPSDK/Core/Resources/unincomponents.ttf; sourceTree = "<group>"; };
+		FAFF21AD07565351DB45A1D0C29F2ED8 /* WXModuleProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXModuleProtocol.h; sourceTree = "<group>"; };
+		FB9477CE3BF975DB3F32687CD3AF51BF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		FBAC1850B5B8046AE874CAABF2335E0F /* WXDisplayLinkManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXDisplayLinkManager.h; sourceTree = "<group>"; };
+		FC75B565A3D1D0FFFEDEC990B7018620 /* WXBaseViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXBaseViewController.h; sourceTree = "<group>"; };
+		FE47414B66C5DE05EC09C902788137D2 /* WXComponent+Layout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WXComponent+Layout.h"; sourceTree = "<group>"; };
+		FE6988FE5E122581C037B568CD85056E /* WXScrollerProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXScrollerProtocol.h; sourceTree = "<group>"; };
+		FF48BD2C4F40DAA4C1CD34AB3D0255C1 /* WXRichText.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXRichText.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18F0F9A6D8C23796B809AAF1BD8A08D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BF64F020BAC4B8DC0C0F937F3937C72 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		504D54F8AC582D4E97E4D20CCE4F30D3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5DD9ED829E9E22B48E10D2F2BDC50762 /* __uniappes6.js */,
+				A57AC63B77C6B7CCC8083C2CC1E76760 /* PandoraApi.bundle */,
+				329D3C1F1C11837604E8781F7265018A /* uni-jsframework.js */,
+				F4C078903BDECE3789003E620DC11255 /* unincomponents.ttf */,
+				D2A0564B9209A986314E8CBF18B95CB8 /* weex-polyfill.js */,
+				A4D73D256E9E97A5C311B073009738C7 /* weexUniJs.js */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		50F287412A6C59DE862A9A5269823332 /* weexHeader */ = {
+			isa = PBXGroup;
+			children = (
+				203C78E9A7B587DDFB49B5548884CB73 /* flex_enum.h */,
+				041ABA7D244F171D565787A9067FDD17 /* JSContext+Weex.h */,
+				3E643812CB7735DCBB748BB0019B27A5 /* layout.h */,
+				9F76FA86CD2B0FC49DCA63A68487B10E /* NSObject+WXSwizzle.h */,
+				302261A7AE9B2C419B65767A6835F6D1 /* style.h */,
+				310559ADE24406428804B8875AC6E697 /* UniPluginProtocol.h */,
+				8834982F2CFE7C568FE3EA35330B3B30 /* WeexProtocol.h */,
+				9124F67AD77EA76F181233E38DFB5BC5 /* WeexSDK.h */,
+				0E8D1B9C81A3F2D5787E15DA8D73B7A4 /* WXAComponent.h */,
+				D8C1E5626C470A5D9FF7CA1BC5DD1580 /* WXAnalyzerCenter.h */,
+				76949D8A3A67ED6F2D816A3B86C587F8 /* WXAnalyzerProtocol.h */,
+				D064B851170599C4198878E5D057ACAF /* WXApmForInstance.h */,
+				0DFC66CF9A6FBF724AFC76BCA2BC7E87 /* WXApmProtocol.h */,
+				E37635E47C3E499C657419A190E6492E /* WXAppConfiguration.h */,
+				1179B20CDA48B279578EBFE359F6ED4F /* WXAppMonitorProtocol.h */,
+				FC75B565A3D1D0FFFEDEC990B7018620 /* WXBaseViewController.h */,
+				9DE8359B79E4CB2E561B68A339443693 /* WXBridgeManager.h */,
+				EABC05DF54766F9239B1CBD5CD458648 /* WXBridgeProtocol.h */,
+				2C7E9CC6BED299031824F9B91F44130C /* WXComponent.h */,
+				FE47414B66C5DE05EC09C902788137D2 /* WXComponent+Layout.h */,
+				1A94A63AFB1BB0CD378829E67E33F0E2 /* WXComponentManager.h */,
+				4CF0FB19FA5898688989C933B91A7CEA /* WXConfigCenterProtocol.h */,
+				02DAFD9498C0BAF5982369E6ED8BF7D3 /* WXConvert.h */,
+				400596A252B546FAE2BD668387013C65 /* WXDebugTool.h */,
+				8B0146D44C88B0CBB8BB54D4966BFD9D /* WXDefine.h */,
+				FBAC1850B5B8046AE874CAABF2335E0F /* WXDisplayLinkManager.h */,
+				D49E89A82A2705EB7271ED8EFED9F0FF /* WXErrorView.h */,
+				1B8352F640787FE771D4FFD11F5CFAA2 /* WXEventModuleProtocol.h */,
+				6C43F159EA9BB6A37E93FFF275F289C2 /* WXExceptionUtils.h */,
+				57A84FACE143E50D545C9FD69B1DC4C0 /* WXExtendCallNativeProtocol.h */,
+				A513BCB75644F4D08875D7BB1C5CE871 /* WXImgLoaderProtocol.h */,
+				C0943C966BFFC232833CABCF04BACAD2 /* WXIndicatorComponent.h */,
+				55E6ED53707C5CF8F2F1FCD67A4DD8CE /* WXJSExceptionInfo.h */,
+				4A62C6D2C432961CF63182A06F5A64B9 /* WXJSExceptionProtocol.h */,
+				C9F2C43FD0952F0D2807FC4A1B27F9E8 /* WXJSFrameworkLoadProtocol.h */,
+				AD406C5DDAF56FB89AD20DC10A3B467D /* WXListComponent.h */,
+				6C438E19FADA1EB72ED38B2A7B72C639 /* WXLog.h */,
+				35838981A059D150ED72CA50AFD24213 /* WXModalUIModule.h */,
+				FAFF21AD07565351DB45A1D0C29F2ED8 /* WXModuleProtocol.h */,
+				D5A9D7D697DA899418758F59AD5CD1C9 /* WXMonitor.h */,
+				4D953DD89EDA8DED85200B51B9454114 /* WXNavigationProtocol.h */,
+				2BC8D4FB994CF2D59A2EDB6600EF20D4 /* WXNetworkProtocol.h */,
+				8099D0472CC06D71B78AD51F93CDD8C7 /* WXPageEventNotifyEvent.h */,
+				E488A1117E4AF9A1B6BD82F02E25F965 /* WXPrerenderManager.h */,
+				28D4840E1AC10A475F55A90D3304F95D /* WXRecyclerComponent.h */,
+				C064B635E3446BC060E62CA40523D538 /* WXResourceLoader.h */,
+				33D517C007E20CBFBE6387F0AFF22632 /* WXResourceRequest.h */,
+				DE24F24DBA4104667EB46C56B58B5C92 /* WXResourceRequestHandler.h */,
+				C4A761476719EE2309FBC52A1E030DD6 /* WXResourceResponse.h */,
+				FF48BD2C4F40DAA4C1CD34AB3D0255C1 /* WXRichText.h */,
+				D397E8E1F39BF5BF14BD1F5EFFF6796F /* WXRootView.h */,
+				4A35FA1BA1287534E34F3D1F20A51701 /* WXRootViewController.h */,
+				8E819E700BC54DBBA1ED89662F05283F /* WXScrollerComponent.h */,
+				FE6988FE5E122581C037B568CD85056E /* WXScrollerProtocol.h */,
+				36895187D0E11A25892862354DA64B00 /* WXSDKEngine.h */,
+				46A3D49D28F50B71936C697800368433 /* WXSDKError.h */,
+				BB9B100FEA225364BC8E144145DE3D5E /* WXSDKInstance.h */,
+				25812F0366788F11B339E9A28C4B4071 /* WXSDKInstance+Bridge.h */,
+				EF1257356A80D51DEB97A0F241ED528C /* WXSDKInstance+DCExtend.h */,
+				8BBB6EC9C9630AA30B4A84287B697546 /* WXSDKManager.h */,
+				599930FC5499B92B637F408F28C74C00 /* WXTracingManager.h */,
+				C19B5AFF52F42D5542F3BFED92652742 /* WXTracingProtocol.h */,
+				1A2653D56A1EF52E7E2D6EACCEB314FA /* WXType.h */,
+				07D3A5409B620DF4DEE3C091BBC5DBF2 /* WXURLRewriteProtocol.h */,
+				6BE40F8D8FA7A89F715EE487FAFDC69C /* WXUtility.h */,
+				3CE537C7AFC6872B7F1632DB5E26C00C /* WXValidateProtocol.h */,
+				F03FEFE41DEF300D9C5A640837A3A1D6 /* WXView.h */,
+				BA315DE3A1D36F18B1BC983A9ED62A9E /* WXVoiceOverModule.h */,
+				4D24EC2E7E51738A2DEB86CF2339DDC1 /* WXWebSocketHandler.h */,
+			);
+			name = weexHeader;
+			path = UdeskUniMPSDKDemo/UniMPSDK/Core/Headers/weexHeader;
+			sourceTree = "<group>";
+		};
+		5BD46F1440AB310142B613A3CD77CAC6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE3671D82717716CDDE85DFB644935B4 /* Udesk-UniMPSDK.debug.xcconfig */,
+				A199BB21FDC8BD032C0C142E888E6AD7 /* Udesk-UniMPSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../UdeskUniMPSDKManager/UdeskUniMPSDKManagerDemo/Pods/Target Support Files/Udesk-UniMPSDK";
+			sourceTree = "<group>";
+		};
+		5F9005F46B284F76B5C69AF6F2451DAE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DBACBC70D96DF94B2CCA15AF48522299 /* libcoreSupport.a */,
+				5E15FB086FBDA3461A18716402A6829F /* libIO.a */,
+				B0C8C8A41B91A2B41197BC723AEED9BD /* libNativeObj.a */,
+				914E869BF1F44FB819BF686780279ECE /* libNativeUI.a */,
+				A6E1BD225C8189DD79C2CA412D4C1C88 /* libNavigator.a */,
+				D6EE947C0D18EB9B7E325B81D524ACA0 /* libPDRCore.a */,
+				E229AC5DB4A7B3AB4C9318AFCF337232 /* libPGInvocation.a */,
+				7CFF7FAF1B4411C63546D9678D4AAA3F /* libSDWebImage.a */,
+				559048F2FBD8E63B2EAD073A5EA1EFE4 /* libStorage.a */,
+				BDD500A99DE3FD166E2573AD6FFCF95C /* libUI.a */,
+				2E7CA0F22E5D07D2BF8322C937A956AB /* libWeex.a */,
+				8BBDE34F8F285BB1CE04C5C28B53A952 /* storage.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		605DF311B95B4D49E6DED4F88A8CB76C /* Udesk-UniMPSDK */ = {
+			isa = PBXGroup;
+			children = (
+				471A24718827BB3238BF39F3C47477B7 /* DCUniMP.h */,
+				F104FDD7434D111233364DFDC6DC551A /* DCUniMPConfiguration.h */,
+				31BD687B29837B6D8FDC547097A5A224 /* DCUniMPError.h */,
+				28FDD873D86D9A7642B0BB9EF9B2EFA8 /* DCUniMPInstance.h */,
+				595C5AFFE7751FE94AE6F64980A0E030 /* DCUniMPMenuActionSheetStyle.h */,
+				8DE21D5ABDE1445BEB43EF2DF2155BC3 /* DCUniMPSDKEngine.h */,
+				5F9005F46B284F76B5C69AF6F2451DAE /* Frameworks */,
+				EF811E0FF069C4A4D32E89382EE5265E /* Pod */,
+				504D54F8AC582D4E97E4D20CCE4F30D3 /* Resources */,
+				5BD46F1440AB310142B613A3CD77CAC6 /* Support Files */,
+				50F287412A6C59DE862A9A5269823332 /* weexHeader */,
+			);
+			name = "Udesk-UniMPSDK";
+			path = "../../../Udesk-UniMPSDK";
+			sourceTree = "<group>";
+		};
+		6C889D4CAEAC488A15A248A74ECB3DF6 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				605DF311B95B4D49E6DED4F88A8CB76C /* Udesk-UniMPSDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A38AFA1E11727E2CE26829B3A97BE2B4 /* Pods-UdeskUniMPSDKManagerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C9E2548B72150E68FD3C99FFF40BFC6C /* Pods-UdeskUniMPSDKManagerDemo.modulemap */,
+				B17BD41898DA8E6A47EF671931D6AFC8 /* Pods-UdeskUniMPSDKManagerDemo-acknowledgements.markdown */,
+				10ED7FC47CA78390326AD9D365327592 /* Pods-UdeskUniMPSDKManagerDemo-acknowledgements.plist */,
+				C90BB77DFAA8124597C089D2D5065B23 /* Pods-UdeskUniMPSDKManagerDemo-dummy.m */,
+				79AB426514F115B36D27F3B6AD59F8F8 /* Pods-UdeskUniMPSDKManagerDemo-Info.plist */,
+				BF2C958A1B549DA0B1541DF2E3972AD6 /* Pods-UdeskUniMPSDKManagerDemo-resources.sh */,
+				768CE3D6A5E9B2EEA15144ED2F661847 /* Pods-UdeskUniMPSDKManagerDemo-umbrella.h */,
+				590A4B057A56D2FEF85CF0BB68CF2F36 /* Pods-UdeskUniMPSDKManagerDemo.debug.xcconfig */,
+				1DF56EA2DCFCCB5FBD1DC9D88A50AB1F /* Pods-UdeskUniMPSDKManagerDemo.release.xcconfig */,
+			);
+			name = "Pods-UdeskUniMPSDKManagerDemo";
+			path = "Target Support Files/Pods-UdeskUniMPSDKManagerDemo";
+			sourceTree = "<group>";
+		};
+		BC31158EB77555F2EDD68C2BAB08DB57 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A38AFA1E11727E2CE26829B3A97BE2B4 /* Pods-UdeskUniMPSDKManagerDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				6C889D4CAEAC488A15A248A74ECB3DF6 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				F7F3D2AA2146E57486C4CEB5758D9C2F /* Products */,
+				BC31158EB77555F2EDD68C2BAB08DB57 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF811E0FF069C4A4D32E89382EE5265E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				6B26D4DA06F5F9FD811F1A3FB1DA1DF2 /* LICENSE */,
+				FB9477CE3BF975DB3F32687CD3AF51BF /* README.md */,
+				65E5FBA73CC65CA063639FAF8D724BF4 /* Udesk-UniMPSDK.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		F7F3D2AA2146E57486C4CEB5758D9C2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91E9962734987649DDDED366411688FD /* Pods_UdeskUniMPSDKManagerDemo.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F5589502C3D935B3CEA719FDC252E92E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				057BBBA3EB43333D4941E9292C1F41BB /* Pods-UdeskUniMPSDKManagerDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		DEC1245CE20DCEBC5B0D108E198D9ECA /* Pods-UdeskUniMPSDKManagerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B37D257199F0470175C5FDC3908F5775 /* Build configuration list for PBXNativeTarget "Pods-UdeskUniMPSDKManagerDemo" */;
+			buildPhases = (
+				F5589502C3D935B3CEA719FDC252E92E /* Headers */,
+				0766816368A1BF1EA3D59C0987FF4F32 /* Sources */,
+				18F0F9A6D8C23796B809AAF1BD8A08D7 /* Frameworks */,
+				81C1CEACACE6D3C1D8626C3D2E1D1BC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94142F13820352ADD1861C83C26A9715 /* PBXTargetDependency */,
+			);
+			name = "Pods-UdeskUniMPSDKManagerDemo";
+			productName = "Pods-UdeskUniMPSDKManagerDemo";
+			productReference = 91E9962734987649DDDED366411688FD /* Pods_UdeskUniMPSDKManagerDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = F7F3D2AA2146E57486C4CEB5758D9C2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEC1245CE20DCEBC5B0D108E198D9ECA /* Pods-UdeskUniMPSDKManagerDemo */,
+				6ED29E5151758695DC7892440D7E3151 /* Udesk-UniMPSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81C1CEACACE6D3C1D8626C3D2E1D1BC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0766816368A1BF1EA3D59C0987FF4F32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56D01B0BE8740D7E1F09CA4F1C3179C2 /* Pods-UdeskUniMPSDKManagerDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		94142F13820352ADD1861C83C26A9715 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Udesk-UniMPSDK";
+			target = 6ED29E5151758695DC7892440D7E3151 /* Udesk-UniMPSDK */;
+			targetProxy = 03D650094E74741381BDB0878D368C5B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		87949C63B24CB1C95C8EF5182E2FE4E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 590A4B057A56D2FEF85CF0BB68CF2F36 /* Pods-UdeskUniMPSDKManagerDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UdeskUniMPSDKManagerDemo/Pods-UdeskUniMPSDKManagerDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UdeskUniMPSDKManagerDemo/Pods-UdeskUniMPSDKManagerDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9B4615318B351E050572C84AF4600D80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A199BB21FDC8BD032C0C142E888E6AD7 /* Udesk-UniMPSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BAC39A12CDC6A3A28DFF7954DE2810BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE3671D82717716CDDE85DFB644935B4 /* Udesk-UniMPSDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD79F3046D31BE8595F0400976F37304 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DF56EA2DCFCCB5FBD1DC9D88A50AB1F /* Pods-UdeskUniMPSDKManagerDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UdeskUniMPSDKManagerDemo/Pods-UdeskUniMPSDKManagerDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UdeskUniMPSDKManagerDemo/Pods-UdeskUniMPSDKManagerDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3952504984646DBE0DFFD63B57A9E17 /* Build configuration list for PBXAggregateTarget "Udesk-UniMPSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAC39A12CDC6A3A28DFF7954DE2810BE /* Debug */,
+				9B4615318B351E050572C84AF4600D80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B37D257199F0470175C5FDC3908F5775 /* Build configuration list for PBXNativeTarget "Pods-UdeskUniMPSDKManagerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87949C63B24CB1C95C8EF5182E2FE4E7 /* Debug */,
+				CD79F3046D31BE8595F0400976F37304 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
